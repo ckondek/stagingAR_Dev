@@ -19,6 +19,7 @@ public class ShakingBehaviour : MonoBehaviour
     void Start()
     {
         _startPos = transform.position;
+        _distance = 0.001f;
     }
    //Fixed Update runs once per physics update
     void FixedUpdate()
@@ -27,7 +28,11 @@ public class ShakingBehaviour : MonoBehaviour
         {
             _currentdist = Vector3.Distance(playerTransform.position, transform.position);
             _currentdist = Mathf.Abs(_currentdist);
-            _distance = _maxShakeDistance / _maxdist * _currentdist;
+            if (_currentdist!=_maxdist)
+            {
+                _distance = _maxShakeDistance  * ((_maxdist-_currentdist)/_maxdist);
+            }
+            
             _randNoY = new Vector3(Random.Range(0.0f, 1.0f) * _distance, 0.0f, Random.Range(0.0f, 1.0f) * _distance);
             _randomPos = _startPos + _randNoY;
             transform.position = _randomPos;
