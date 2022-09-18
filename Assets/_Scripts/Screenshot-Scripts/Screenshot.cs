@@ -36,12 +36,14 @@ public class Screenshot : MonoBehaviour
 
     public void TakeScreenshot()
     {
+        Debug.Log("klickn grabbing Screenshot");
         grabScreenshot = true;
     }
 
     public void HideShowScreenshot()
     {
-        if(!hidden)
+        Debug.Log("klick hideshow Screenshot");
+        if (!hidden)
         {
             hidden = true;
             hideImages();
@@ -68,6 +70,7 @@ public class Screenshot : MonoBehaviour
     {
         if (grabScreenshot)
         {
+            Debug.Log("grabbing Screenshot");
             //Set the screen/image width and height parameters
             int screenShotWidth = Screen.width;
             int screenShotHeight = Screen.height;
