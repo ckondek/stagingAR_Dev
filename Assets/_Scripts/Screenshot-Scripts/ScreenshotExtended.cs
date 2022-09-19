@@ -3,7 +3,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
 
-public class Screenshot : MonoBehaviour
+public class ScreenshotExtended : MonoBehaviour
 {
     public TMP_Text hideButton;
     // Grab the camera's view when this variable is true.
@@ -54,7 +54,7 @@ public class Screenshot : MonoBehaviour
             hidden = false;
             showImages();
             hideButton.SetText("Hide");
-        }  
+        }
     }
 
     public void DeleteScreenshots()
@@ -75,7 +75,7 @@ public class Screenshot : MonoBehaviour
             int screenShotWidth = Screen.width;
             int screenShotHeight = Screen.height;
             // store in image
-            var screenShot = new Texture2D(screenShotWidth, screenShotHeight, TextureFormat.RGB24, false);
+            var screenShot = new Texture2D(screenShotWidth, screenShotHeight, TextureFormat.EAC_R, false);
             // Use the ‘ReadPixels’ function to grab the pixels from the “Main” camera
             screenShot.ReadPixels(new Rect(0, 0, screenShotWidth, screenShotHeight), 0, 0);
             // ‘Apply()’ then commits these changes to the texture, ready for use
@@ -116,7 +116,7 @@ public class Screenshot : MonoBehaviour
         }
     }
 
-    private void hideImages() 
+    private void hideImages()
     {
         foreach (GameObject image in screenshotList)
         {
@@ -124,7 +124,7 @@ public class Screenshot : MonoBehaviour
         }
     }
 
-    private void showImages() 
+    private void showImages()
     {
         foreach (GameObject image in screenshotList)
         {
