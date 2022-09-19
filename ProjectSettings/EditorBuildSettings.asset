@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/cubeScene.unity
     guid: a93e7f1dde7684ac685d1209e9fdc8db
+  - enabled: 0
+    path: Assets/_Scenes/shaking-growing-coffeecups-and-thermos-scene.unity
+    guid: 2ee23952778074ed9ab7e1fa5287da90
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bc1b66242b88344b1a351317c35bee15, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d292a6402e04f47c68f319348d1dd430, type: 2}
