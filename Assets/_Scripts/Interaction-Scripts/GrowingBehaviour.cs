@@ -8,13 +8,12 @@ public class GrowingBehaviour : MonoBehaviour
     public Vector3 growth;
     public float maxSize;
     public float minSize;
-    AudioSource audioData;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        audioData = GetComponent<AudioSource>();
-       
+        
     }
 
     // Update is called once per frame
@@ -47,7 +46,6 @@ public class GrowingBehaviour : MonoBehaviour
         
         if (other.tag == "Player")
         {
-            audioData.Play(0);
             growing = true;
         }
     }
@@ -57,7 +55,6 @@ public class GrowingBehaviour : MonoBehaviour
         if (other.tag == "Player")
         {
             growing = false;
-            audioData.Pause();
         }
     }
 }
