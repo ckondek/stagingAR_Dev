@@ -71,7 +71,10 @@ namespace M2MqttUnity.Examples
         public long timeStamp;
 
         public bool isConnected = false;
-        
+
+        public SceneHandler sceneHandler;
+
+        public Canvas debugCanvas;
         public void TestPublish()
         {
             client.Publish("StagingAR/test", System.Text.Encoding.UTF8.GetBytes("Test message"), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, false);
@@ -88,6 +91,10 @@ namespace M2MqttUnity.Examples
             base.OnConnected();
 
             isConnected = true;
+
+            debugCanvas.enabled = false;
+            
+            sceneHandler.LoadScene1();
             
             if (autoTest)
             {
