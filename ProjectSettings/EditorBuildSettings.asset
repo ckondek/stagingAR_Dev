@@ -8,5 +8,38 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Portal.unity
     guid: 1665d4f9d1f824ce0b06085e0a981f7d
+  - enabled: 0
+    path: Assets/_Scenes/220918_Avatar.unity
+    guid: 82d066850edbf435381acbbe4e691416
+  - enabled: 0
+    path: Assets/_Scenes/cubeScene.unity
+    guid: a93e7f1dde7684ac685d1209e9fdc8db
+  - enabled: 1
+    path: Assets/_Scenes/FaceSwitch.unity
+    guid: b716b25c64add4158a80c91967185ddc
+  - enabled: 1
+    path: Assets/_Scenes/MainScene.unity
+    guid: 5489e653bf3114a2885e389fe16acfa1
+  - enabled: 0
+    path: Assets/_Scenes/MiniScene.unity
+    guid: 3a78806f3f8bb46c1a05c0f075646e19
+  - enabled: 0
+    path: Assets/_Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/_Scenes/SchnekeWelt.unity
+    guid: 60b722edbc3e04cc1a1ce895af53b9a3
+  - enabled: 0
+    path: Assets/_Scenes/ScreenshotExtendedScene.unity
+    guid: 389dcc8a85e2b4c069cd0a0622d80028
+  - enabled: 0
+    path: Assets/_Scenes/ScreenshotScene.unity
+    guid: f5ad1946c1eff432cb9e4fe8d816e541
+  - enabled: 0
+    path: Assets/_Scenes/shaking-growing-coffeecups-and-thermos-scene.unity
+    guid: 2ee23952778074ed9ab7e1fa5287da90
+  - enabled: 0
+    path: Assets/_Scenes/TestingScene.unity
+    guid: 3d1093304c1c34578a59242dc5a59b07
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bc1b66242b88344b1a351317c35bee15, type: 2}
