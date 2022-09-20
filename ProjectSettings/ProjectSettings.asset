@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: stagingAR
-  productName: schneke_scene1
+  productName: Cube5
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
@@ -136,8 +136,8 @@ PlayerSettings:
     Others: 1
   bundleVersion: 1.0
   preloadedAssets:
-  - {fileID: -1576587537045204714, guid: d292a6402e04f47c68f319348d1dd430, type: 2}
   - {fileID: 4800000, guid: e7c77f6eaab324a819efdc13b8125a39, type: 3}
+  - {fileID: -1576587537045204714, guid: d292a6402e04f47c68f319348d1dd430, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -157,7 +157,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    iPhone: com.stagingAR.schneke-scene1
+    Standalone: com.stagingAR.Cube5
+    iPhone: com.stagingAR.Cube5
   buildNumber:
     Standalone: 0
     iPhone: 0
