@@ -1,4 +1,4 @@
-// source: https://www.linkedin.com/pulse/grabbing-screenshots-ar-foundation-simon-jackson/
+// based on source: https://www.linkedin.com/pulse/grabbing-screenshots-ar-foundation-simon-jackson/
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
