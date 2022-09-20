@@ -54,7 +54,7 @@ namespace M2MqttUnity.Examples
         }
     }
     
-    [System.Serializable]
+    [Serializable]
     public class MyMQTTEvent : UnityEvent<MQTTMsg>
     {
     }
@@ -67,6 +67,10 @@ namespace M2MqttUnity.Examples
         private List<MQTTMsg> eventMessages = new List<MQTTMsg>();
 
         public static MyMQTTEvent _mqttEvent;
+
+        public long timeStamp;
+
+        public bool isConnected = false;
         
         public void TestPublish()
         {
@@ -74,11 +78,17 @@ namespace M2MqttUnity.Examples
             Debug.Log("Test message published");
         }
 
+        public void MQTT_Publish(string topic, string msg)
+        {
+            client.Publish("StagingAR/" + topic, System.Text.Encoding.UTF8.GetBytes(msg), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true);
+        }
+        
         protected override void OnConnected()
         {
             base.OnConnected();
-           
 
+            isConnected = true;
+            
             if (autoTest)
             {
                 TestPublish();
@@ -96,10 +106,10 @@ namespace M2MqttUnity.Examples
         }
         
 
-        protected override void Start()
+        protected override void Awake()
         {
             
-            base.Start();
+            base.Awake();
             
             if (_mqttEvent == null)
                 _mqttEvent = new MyMQTTEvent();
@@ -114,6 +124,7 @@ namespace M2MqttUnity.Examples
             mqttMsg.msg = msg;
             
             StoreMessage(mqttMsg);
+            
             if (topic == "StagingAR/test")
             {
                 if (autoTest)
@@ -131,7 +142,11 @@ namespace M2MqttUnity.Examples
 
         private void ProcessMessage(MQTTMsg msg)
         {
-            Debug.Log("Received: " + msg.msg + "in topic: " + msg.topic);
+            //Debug.Log("Received: " + msg.msg + "in topic: " + msg.topic);
+            if (msg.topic.Equals("StagingAR/timestamp"))
+            {
+                timeStamp = long.Parse(msg.msg);
+            }
             _mqttEvent.Invoke(msg);
         }
 
@@ -153,6 +168,7 @@ namespace M2MqttUnity.Examples
         private void OnDestroy()
         {
             Disconnect();
+            isConnected = false;
         }
 
         private void OnValidate()

@@ -163,6 +163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 58148346}
+  - component: {fileID: 58148347}
   m_Layer: 0
   m_Name: MQTT
   m_TagString: Untagged
@@ -185,6 +186,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &58148347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58148345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b68246dc984f4c6ab90fc1b611f8f5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brokerAddress: 172.105.247.101
+  brokerPort: 1883
+  isEncrypted: 0
+  connectionDelay: 500
+  timeoutOnConnection: 30000
+  autoConnect: 1
+  mqttUserName: Spiel
+  mqttPassword: puppe2010
+  autoTest: 0
+  timeStamp: 0
+  isConnected: 0
 --- !u!1 &172540154
 GameObject:
   m_ObjectHideFlags: 0
