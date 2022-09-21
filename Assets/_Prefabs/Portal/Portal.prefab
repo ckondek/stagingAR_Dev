@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b891e9d6c91b1465185d231b7b359585, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -140,7 +140,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8041208775631851219}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: -----Enviorment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,7 +237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1505702654596658966}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ------Portal--------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
