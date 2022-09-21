@@ -781,8 +781,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Scene1: Portal
-  Scene2: FaceSwitch
-  Scene3: Portal
+  Scene2: TabeltOnPause
+  Scene3: FaceSwitch
   Scene4: Portal
   Scene5: Portal
   Scene6: Portal
@@ -852,7 +852,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &275776047
 GameObject:
@@ -2732,7 +2732,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1994370197}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UI-Loading
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2753,7 +2753,7 @@ Transform:
   m_Children:
   - {fileID: 1449966684}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2140549541
 GameObject:
