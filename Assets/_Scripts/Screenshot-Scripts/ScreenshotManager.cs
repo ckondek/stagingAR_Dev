@@ -7,7 +7,7 @@ public class ScreenshotManager : MonoBehaviour
 {
     public TMP_Text hideButton;
     public GameObject timer;
-    public Material screenshotMaterial;
+    public Material screenshotMaterial, screenshotMaterial2;
     // Grab the camera's view when this variable is true.
     private bool grabScreenshot, hidden;
     // Cache variable for our unlit shader
@@ -73,7 +73,7 @@ public class ScreenshotManager : MonoBehaviour
         if (grabScreenshot)
         {
             Debug.Log("grabbing Screenshot");
-            ScreenshotObject screenshotObject = new ScreenshotObject(cam, unlitTexture, timer, screenshotMaterial);
+            ScreenshotObject screenshotObject = new ScreenshotObject(cam, unlitTexture, timer, screenshotMaterial, screenshotMaterial2);
 
 
             if (hidden) screenshotObject.screenshotGroup.SetActive(false);
