@@ -1283,6 +1283,8 @@ MonoBehaviour:
   timer: {fileID: 925857935404913308, guid: 6d5280c35ca5546618f38e0af877b79c, type: 3}
   screenshotMaterial: {fileID: 2100000, guid: d16e72c8f8367480c80b9e99c631f0bf, type: 2}
   screenshotMaterial2: {fileID: 2100000, guid: 411d25690f4334296950827d3cc853bc, type: 2}
+  screenshotMaterial3: {fileID: 2100000, guid: def4609f3deb7491faa5c51fe4612c1d, type: 2}
+  arCamera: {fileID: 952178039}
   cam: {fileID: 952178033}
 --- !u!1 &1509743857
 GameObject:

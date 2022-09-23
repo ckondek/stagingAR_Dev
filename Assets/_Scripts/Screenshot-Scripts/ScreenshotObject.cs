@@ -6,21 +6,22 @@ public class ScreenshotObject
 {
     private CameraRenderEvent cam;
     public GameObject screenshotGroup;
-    private GameObject colorPic, grayPic, backPic, timerPrefab;
+    private GameObject colorPic, grayPic, selectionQuad, timerPrefab;
     private Shader unlitTexture;
-    private Texture2D screenShot, flippedTexture, grayTexture;
+    private Texture2D screenShot, grayTexture;
     private int screenShotWidth, screenShotHeight;
-    private Material screenshotMaterial, screenshotMaterial2;
+    private Material screenshotMaterial, screenshotMaterial2, screenshotSelectMaterial;
     private Vector3 camForward;
     private Quaternion camRotation;
 
-    public ScreenshotObject(CameraRenderEvent camera, Shader textureShader, GameObject timer, Material material, Material material2)
+    public ScreenshotObject(CameraRenderEvent camera, Shader textureShader, GameObject timer, Material material, Material material2, Material material3)
     {
         cam = camera;
         unlitTexture = textureShader;
         timerPrefab = timer;
         screenshotMaterial = material;
         screenshotMaterial2 = material2;
+        screenshotSelectMaterial = material3;
         screenshotGroup = new GameObject();
         screenshotGroup.transform.SetParent(cam.transform.parent);
         TakeColorfulScreenshot();
@@ -98,7 +99,7 @@ public class ScreenshotObject
         Vector3 posOffset = new Vector3(rightOffset, 0.0f, 0.0f);
         Vector3 pos = cam.transform.position + (cam.transform.forward + perpDown * downOffset) * 0.745f - posOffset ;
         */
-        Vector3 pos = cam.transform.position + camForward * 0.752f;
+        Vector3 pos = cam.transform.position + camForward * 0.753f;
         timer.transform.position = pos;
     }
 
@@ -133,20 +134,20 @@ public class ScreenshotObject
         // Spawn a Quad Primitive
         colorPic = GameObject.CreatePrimitive(PrimitiveType.Quad);
         grayPic = GameObject.CreatePrimitive(PrimitiveType.Quad);
-        //backPic = GameObject.CreatePrimitive(PrimitiveType.Quad);
+        selectionQuad = GameObject.CreatePrimitive(PrimitiveType.Quad);
 
         colorPic.transform.SetParent(screenshotGroup.transform);
         grayPic.transform.SetParent(screenshotGroup.transform);
-        //backPic.transform.SetParent(screenshotGroup.transform);
+        selectionQuad.transform.SetParent(screenshotGroup.transform);
 
         colorPic.transform.LookAt(colorPic.transform.position + camRotation * Vector3.forward, camRotation * Vector3.up);
         grayPic.transform.LookAt(grayPic.transform.position + camRotation * Vector3.forward, camRotation * Vector3.up);
-        //backPic.transform.LookAt(backPic.transform.position + camRotation * Vector3.forward * (-1.0f), camRotation * Vector3.up);
+        selectionQuad.transform.LookAt(selectionQuad.transform.position + camRotation * Vector3.forward, camRotation * Vector3.up);
 
         // Set a position Forward for the camera view
-        Vector3 pos1 = cam.transform.position + camForward * 0.75f;
-        Vector3 pos2 = cam.transform.position + camForward * 0.751f;
-        //Vector3 pos3 = cam.transform.position + cam.transform.forward * 0.752f;
+        Vector3 pos1 = cam.transform.position + camForward * 0.751f;
+        Vector3 pos2 = cam.transform.position + camForward * 0.752f;
+        Vector3 pos3 = cam.transform.position + camForward * 0.75f;
 
         //Get the current scale of the Quad
         Vector3 scale = colorPic.transform.localScale;
@@ -167,16 +168,16 @@ public class ScreenshotObject
         //Update the position and scale of the Quad
         colorPic.transform.localScale = scale;
         grayPic.transform.localScale = scale;
-        //backPic.transform.localScale = scale;
+        selectionQuad.transform.localScale = scale;
 
         colorPic.transform.position = pos1;
         grayPic.transform.position = pos2;
-        //backPic.transform.position = pos3;
+        selectionQuad.transform.position = pos3;
 
         // Apply the grabbed screenshot texture to the Quad's material
         var renderer1 = colorPic.GetComponent<MeshRenderer>();
         var renderer2 = grayPic.GetComponent<MeshRenderer>();
-        //var renderer3 = backPic.GetComponent<MeshRenderer>();
+        var renderer3 = selectionQuad.GetComponent<MeshRenderer>();
 
         renderer1.material = screenshotMaterial;
         renderer1.material.mainTexture = screenShot;
@@ -184,6 +185,18 @@ public class ScreenshotObject
         //renderer2.material.shader = unlitTexture;
         renderer2.material.mainTexture = grayTexture;
         //renderer3.material.shader = unlitTexture;
-        //renderer3.material.mainTexture = flippedTexture;
+        renderer3.material = screenshotSelectMaterial;
+        selectionQuad.SetActive(false);
     }
+
+    public void Select()
+    {
+        selectionQuad.SetActive(true);
+    }
+
+    public void Unselect()
+    {
+        selectionQuad.SetActive(false);
+    }
+
 }
