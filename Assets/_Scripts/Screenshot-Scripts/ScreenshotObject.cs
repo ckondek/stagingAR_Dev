@@ -11,6 +11,8 @@ public class ScreenshotObject
     private Texture2D screenShot, flippedTexture, grayTexture;
     private int screenShotWidth, screenShotHeight;
     private Material screenshotMaterial, screenshotMaterial2;
+    private Vector3 camForward;
+    private Quaternion camRotation;
 
     public ScreenshotObject(CameraRenderEvent camera, Shader textureShader, GameObject timer, Material material, Material material2)
     {
@@ -43,7 +45,7 @@ public class ScreenshotObject
         // Spawn a Quad Primitive
         colorPic = GameObject.CreatePrimitive(PrimitiveType.Quad);
         colorPic.transform.SetParent(screenshotGroup.transform);
-        colorPic.transform.LookAt(colorPic.transform.position + cam.transform.rotation * Vector3.forward, cam.transform.rotation * Vector3.up);
+        colorPic.transform.LookAt(colorPic.transform.position + camRotation * Vector3.forward, camRotation * Vector3.up);
         // Set a position Forward for the camera view
         Vector3 pos = cam.transform.position + cam.transform.forward * 0.75f;
         //Get the current scale of the Quad
@@ -76,7 +78,7 @@ public class ScreenshotObject
     {
         GameObject timer = GameObject.Instantiate(timerPrefab, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
         timer.transform.SetParent(screenshotGroup.transform);
-        timer.transform.LookAt(colorPic.transform.position + cam.transform.rotation * Vector3.forward * (-1.0f), cam.transform.rotation * Vector3.up);
+        timer.transform.LookAt(timer.transform.position + camRotation * Vector3.forward * (-1.0f), camRotation * Vector3.up);
         /*
         float rightOffset = 0.25f;
         float downOffset = 0.45f;
@@ -96,7 +98,7 @@ public class ScreenshotObject
         Vector3 posOffset = new Vector3(rightOffset, 0.0f, 0.0f);
         Vector3 pos = cam.transform.position + (cam.transform.forward + perpDown * downOffset) * 0.745f - posOffset ;
         */
-        Vector3 pos = cam.transform.position + cam.transform.forward * 0.752f;
+        Vector3 pos = cam.transform.position + camForward * 0.752f;
         timer.transform.position = pos;
     }
 
@@ -126,6 +128,8 @@ public class ScreenshotObject
 
     private void CreateQuads()
     {
+        camForward = cam.transform.forward;
+        camRotation = cam.transform.rotation;
         // Spawn a Quad Primitive
         colorPic = GameObject.CreatePrimitive(PrimitiveType.Quad);
         grayPic = GameObject.CreatePrimitive(PrimitiveType.Quad);
@@ -135,13 +139,13 @@ public class ScreenshotObject
         grayPic.transform.SetParent(screenshotGroup.transform);
         //backPic.transform.SetParent(screenshotGroup.transform);
 
-        colorPic.transform.LookAt(colorPic.transform.position + cam.transform.rotation * Vector3.forward, cam.transform.rotation * Vector3.up);
-        grayPic.transform.LookAt(grayPic.transform.position + cam.transform.rotation * Vector3.forward, cam.transform.rotation * Vector3.up);
-        //backPic.transform.LookAt(backPic.transform.position + cam.transform.rotation * Vector3.forward * (-1.0f), cam.transform.rotation * Vector3.up);
+        colorPic.transform.LookAt(colorPic.transform.position + camRotation * Vector3.forward, camRotation * Vector3.up);
+        grayPic.transform.LookAt(grayPic.transform.position + camRotation * Vector3.forward, camRotation * Vector3.up);
+        //backPic.transform.LookAt(backPic.transform.position + camRotation * Vector3.forward * (-1.0f), camRotation * Vector3.up);
 
         // Set a position Forward for the camera view
-        Vector3 pos1 = cam.transform.position + cam.transform.forward * 0.75f;
-        Vector3 pos2 = cam.transform.position + cam.transform.forward * 0.751f;
+        Vector3 pos1 = cam.transform.position + camForward * 0.75f;
+        Vector3 pos2 = cam.transform.position + camForward * 0.751f;
         //Vector3 pos3 = cam.transform.position + cam.transform.forward * 0.752f;
 
         //Get the current scale of the Quad
