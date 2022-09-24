@@ -6,7 +6,7 @@ public class ScreenshotObject
 {
     private CameraRenderEvent cam;
     public GameObject screenshotGroup;
-    private GameObject colorPic, grayPic, selectionQuad, timerPrefab;
+    public GameObject colorPic, grayPic, selectionQuad, timerPrefab;
     private Shader unlitTexture;
     private Texture2D screenShot, grayTexture;
     private int screenShotWidth, screenShotHeight;

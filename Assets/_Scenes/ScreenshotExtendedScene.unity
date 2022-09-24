@@ -1525,6 +1525,7 @@ MonoBehaviour:
   screenshotMaterial3: {fileID: 2100000, guid: def4609f3deb7491faa5c51fe4612c1d, type: 2}
   arCamera: {fileID: 952178039}
   cam: {fileID: 952178033}
+  minutes: 10
 --- !u!1 &1509743857
 GameObject:
   m_ObjectHideFlags: 0
