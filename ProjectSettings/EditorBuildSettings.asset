@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/220923_HAU_5Tische.unity
     guid: 8994f856ed2b5419699f4a6b1eddfe13
+  - enabled: 1
+    path: Assets/_Scenes/Mini3_scene.unity
+    guid: 9cfe60dc1a80948ee8b6c07a36168422
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bc1b66242b88344b1a351317c35bee15, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d292a6402e04f47c68f319348d1dd430, type: 2}
