@@ -21,6 +21,7 @@ public class ScreenshotManager : MonoBehaviour
     [Tooltip("Assign the camera that is taking the screenshot")]
     private CameraRenderEvent cam;
     private List<ScreenshotObject> screenshotList;
+    private ScreenshotObject selectedGroup;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +56,11 @@ public class ScreenshotManager : MonoBehaviour
             Touch touch = Input.GetTouch(0);
 
             touchPosition = touch.position;
+            //Debug.Log("position: " + touchPosition.y);
+            if (touchPosition.y < 260)
+            {
+                return;
+            }
 
             if (touch.phase == TouchPhase.Began)
             {
@@ -105,6 +111,16 @@ public class ScreenshotManager : MonoBehaviour
         screenshotList = new List<ScreenshotObject>();
     }
 
+    public void DeleteSelected()
+    {
+        if (selectedGroup != null)
+        { 
+            Destroy(selectedGroup.screenshotGroup);
+            screenshotList.Remove(selectedGroup);
+            selectedGroup = null;
+        }
+    }
+
     private void OnPostRender()
     {
         if (grabScreenshot)
@@ -147,6 +163,7 @@ public class ScreenshotManager : MonoBehaviour
             }
             else
             {
+                selectedGroup = current;
                 current.Select();
             }
         }
