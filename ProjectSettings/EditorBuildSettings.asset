@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/MiniScene.unity
     guid: 3a78806f3f8bb46c1a05c0f075646e19
   - enabled: 0
@@ -44,9 +44,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/220922_ROOMs.unity
     guid: 6b346b7ad589049b29951f380c7f5ffb
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/220923_HAU_5Tische.unity
     guid: 8994f856ed2b5419699f4a6b1eddfe13
+  - enabled: 1
+    path: Assets/_Scenes/220924_BigWorld_HAU1.unity
+    guid: 3d0a9e101087b473ea7a5eff3e44814e
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bc1b66242b88344b1a351317c35bee15, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d292a6402e04f47c68f319348d1dd430, type: 2}
