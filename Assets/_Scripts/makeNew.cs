@@ -28,7 +28,7 @@ public class makeNew : MonoBehaviour
 
 
                 Instantiate(newObject,
-                              new Vector3(Random.Range(-0.5f, 0f), -0.1f, Random.Range(0f, 2f)),
+                              new Vector3(0.0f, 4.0f, 0.0f),
                               Quaternion.identity);
 
                 counter = 0f;
