@@ -35,7 +35,7 @@ MonoBehaviour:
       m_GuidHigh: 10232665102258251880
     m_Size: {x: 0.28, y: 0.1575}
     m_SpecifySize: 1
-    m_Name: HAU_PodestL
+    m_Name: SOCCEREFFI_PODL
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5261878431959009422
@@ -45,7 +45,7 @@ MonoBehaviour:
       m_GuidHigh: 10063021469423932027
     m_Size: {x: 0.28, y: 0.15496308}
     m_SpecifySize: 1
-    m_Name: HAU_PodestR
+    m_Name: ASTRIDONCARD_PODR
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5494608117995585977
