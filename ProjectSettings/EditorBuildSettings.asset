@@ -47,7 +47,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/mini2_bar.unity
     guid: a18e56085fec8409f8401c2fe3c66486
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/220923_HAU_5Miniaturen.unity
     guid: 4724081ac8d084ffbb4502da88dc44c9
   m_configObjects:
