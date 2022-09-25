@@ -31,12 +31,12 @@ public class makeNew : MonoBehaviour
             if (counter > spawnTime)
             {
 
-
+               this.transform.position = origin.transform.position;
                var spawned = Instantiate(newObject,
                               new Vector3(0.0f, 4.0f, 0.0f),
                               Quaternion.identity);
 
-                spawned.transform.parent = origin.transform;
+               // spawned.transform.parent = origin.transform;
 
                 counter = 0f;
             }
