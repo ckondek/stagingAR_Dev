@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playRandomSound : MonoBehaviour
+public class triggerRandomSound : MonoBehaviour
 {
-   private AudioSource _as;
+    private AudioSource _as;
     public AudioClip[] clipArray;
-    public string objectTag;
+   
 
     void Awake()
     {
@@ -18,18 +18,17 @@ public class playRandomSound : MonoBehaviour
 
     void Start()
     {
-        
+
     }
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.tag == objectTag)
-        {
-            _as.clip = clipArray[Random.Range(0,clipArray.Length)];
+       
+            _as.clip = clipArray[Random.Range(0, clipArray.Length)];
             _as.Play(0);
 
 
-        }
+        
     }
 
 }

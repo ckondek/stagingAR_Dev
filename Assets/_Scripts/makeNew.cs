@@ -11,13 +11,13 @@ public class makeNew : MonoBehaviour
     public float start;
     private float counter;
     private float timer;
-    ARSessionOrigin origin;
+   // private ARSessionOrigin origin;
    
     void Start()
     {
         counter = 0f;
         timer = 0f;
-        origin = GameObject.FindObjectOfType<ARSessionOrigin>();
+       // origin = GameObject.FindObjectOfType<ARSessionOrigin>();
     }
 
     // Update is called once per frame
@@ -31,8 +31,8 @@ public class makeNew : MonoBehaviour
             if (counter > spawnTime)
             {
 
-               this.transform.position = origin.transform.position;
-               var spawned = Instantiate(newObject,
+              // this.transform.position = origin.transform.position;
+               Instantiate(newObject,
                               new Vector3(0.0f, 4.0f, 0.0f),
                               Quaternion.identity);
 
