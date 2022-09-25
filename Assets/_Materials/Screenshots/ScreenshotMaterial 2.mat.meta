@@ -1,8 +1,13 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/_Materials/Screenshots/ScreenshotMaterial 2.mat.meta
 guid: def4609f3deb7491faa5c51fe4612c1d
 NativeFormatImporter:
+========
+guid: 077ac5793c0934bf8840dbd18d841041
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> 1e1f504 (updating no firmament):Assets/_3DObjects/_Objects/Firmament.meta
   externalObjects: {}
-  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
