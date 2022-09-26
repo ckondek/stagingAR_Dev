@@ -31,6 +31,7 @@ public class SceneHandler : MonoBehaviour
     void Start()
     {
         mainScene = SceneManager.GetActiveScene();
+        M2MqttUnityStagingAR._mqttEvent.AddListener(MQTT_Load);
         //SceneManager.LoadSceneAsync(Scene1, LoadSceneMode.Additive);
     }
 
