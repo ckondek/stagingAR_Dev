@@ -26,7 +26,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/SchnekeWelt.unity
     guid: 60b722edbc3e04cc1a1ce895af53b9a3
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/ScreenshotExtendedScene.unity
     guid: 389dcc8a85e2b4c069cd0a0622d80028
   - enabled: 0
@@ -38,7 +38,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/New Scene.unity
     guid: 9d4a64d0eaabc4ae48134681a06debf0
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/220922_AvatarsHau1.unity
     guid: 5a46db1f4d69342618c91555a26bcca9
   - enabled: 0
