@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibraryPortal
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5444036548011163438
+  m_GuidHigh: 1577836087833278604
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5354385773640468521
+      m_GuidHigh: 6676716963777647549
+    m_SerializedTextureGuid:
+      m_GuidLow: 8380998813307293308
+      m_GuidHigh: 5769638035991921386
+    m_Size: {x: 0.14733428, y: 0.103}
+    m_SpecifySize: 1
+    m_Name: life-target
+    m_Texture: {fileID: 0}

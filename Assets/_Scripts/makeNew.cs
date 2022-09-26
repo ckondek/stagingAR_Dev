@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
+
 
 public class makeNew : MonoBehaviour
 {
@@ -9,10 +11,13 @@ public class makeNew : MonoBehaviour
     public float start;
     private float counter;
     private float timer;
+   // private ARSessionOrigin origin;
+   
     void Start()
     {
         counter = 0f;
         timer = 0f;
+       // origin = GameObject.FindObjectOfType<ARSessionOrigin>();
     }
 
     // Update is called once per frame
@@ -26,10 +31,12 @@ public class makeNew : MonoBehaviour
             if (counter > spawnTime)
             {
 
-
-                Instantiate(newObject,
-                              new Vector3(Random.Range(-0.5f, 0f), -0.1f, Random.Range(0f, 2f)),
+              // this.transform.position = origin.transform.position;
+               Instantiate(newObject,
+                              new Vector3(0.0f, 4.0f, 0.0f),
                               Quaternion.identity);
+
+               // spawned.transform.parent = origin.transform;
 
                 counter = 0f;
             }
