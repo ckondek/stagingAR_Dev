@@ -46,62 +46,62 @@ public class SceneHandler : MonoBehaviour
 
     public void LoadScene1()
     {
-        LoadScene(Scene1);
+        StartCoroutine(LoadScene(Scene1));
     }
     
     public void LoadScene2()
     {
-        LoadScene(Scene2);
+        StartCoroutine(LoadScene(Scene2));
     }
     
     public void LoadScene3()
     {
-        LoadScene(Scene3);
+        StartCoroutine(LoadScene(Scene3));
     }
     
     public void LoadScene4()
     {
-        LoadScene(Scene4);
+        StartCoroutine(LoadScene(Scene4));
     }
     
     public void LoadScene5()
     {
-        LoadScene(Scene5);
+        StartCoroutine(LoadScene(Scene5));
     }
     
     public void LoadScene6()
     {
-        LoadScene(Scene6);
+        StartCoroutine(LoadScene(Scene6));
     }
 
     public void LoadScene7()
     {
-        LoadScene(Scene7);
+        StartCoroutine(LoadScene(Scene7));
     }
 
     public void LoadScene8()
     {
-        LoadScene(Scene8);
+        StartCoroutine(LoadScene(Scene8));
     }
 
     public void LoadScene9()
     {
-        LoadScene(Scene9);
+        StartCoroutine(LoadScene(Scene9));
     }
 
     public void MQTT_Load(MQTTMsg msg)
     {
         if (msg.topic.Equals("StagingAR/SceneHandler"))
         {
-            LoadScene(msg.msg);
+            StartCoroutine(LoadScene(msg.msg));
         }
     }
     
-  private void LoadScene(string sceneName)
+  private IEnumerator LoadScene(string sceneName)
     {
         if (SceneManager.GetActiveScene().name.Equals(sceneName))
         {
-            return;
+            yield break;
         }
 
         if (SceneManager.sceneCount > 0)
@@ -110,7 +110,7 @@ public class SceneHandler : MonoBehaviour
             {
                 if (SceneManager.GetSceneByBuildIndex(i).isLoaded)
                 {
-                    SceneManager.UnloadSceneAsync(i);
+                    yield return SceneManager.UnloadSceneAsync(i);
                 }
             }
         }

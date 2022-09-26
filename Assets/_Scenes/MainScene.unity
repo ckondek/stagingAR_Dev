@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708625, g: 0.37838694, b: 0.35726872, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311915, g: 0.3807396, b: 0.35872662, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -806,12 +806,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scene1: TabeltOnPause
   Scene2: FaceSwitch
-  Scene3: 220924_BigWorld_HAU1
-  Scene4: 220926_HAU_5Minis
+  Scene3: Portal
+  Scene4: Portal 1
   Scene5: Portal
-  Scene6: ThermosScene1
-  Scene7: thermos-cup-orbit-scene
-  Scene8: ScreenshotExtendedScene-wo-event
+  Scene6: Portal 1
+  Scene7: Portal
+  Scene8: TabeltOnPause
   Scene9: Portal
 --- !u!1 &268030178
 GameObject:
