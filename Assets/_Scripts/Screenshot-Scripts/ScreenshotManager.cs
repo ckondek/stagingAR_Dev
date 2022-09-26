@@ -7,14 +7,24 @@ public class ScreenshotManager : MonoBehaviour
 {
     public TMP_Text hideButton;
     public GameObject timer;
-    // Grab the camera's view when this variable is true.
+    public Material screenshotMaterial, screenshotMaterial2, screenshotMaterial3;
+    [SerializeField]
+    private Camera arCamera;
+
+    private Vector2 touchPosition = default;
+
+    // Grab the camera's view when grabScreenshot variable is true.
     private bool grabScreenshot, hidden;
     // Cache variable for our unlit shader
     private Shader unlitTexture;
     [SerializeField]
     [Tooltip("Assign the camera that is taking the screenshot")]
     private CameraRenderEvent cam;
-    private List<GameObject> screenshotList;
+    [SerializeField]
+    [Tooltip("After how many minutes should screenshots turn black and white?")]
+    private float minutes;
+    private List<ScreenshotObject> screenshotList;
+    private ScreenshotObject selectedGroup;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +32,9 @@ public class ScreenshotManager : MonoBehaviour
         if (cam == null)
         {
             // Not the most ideal search, Cameras should be tagged for search, or referenced.
-            cam = GameObject.FindObjectOfType<CameraRenderEvent>();
+            //cam = GameObject.FindObjectOfType<CameraRenderEvent>();
+            cam = arCamera.GetComponent<CameraRenderEvent>();
+
         }
         if (cam != null)
         {
@@ -31,8 +43,61 @@ public class ScreenshotManager : MonoBehaviour
         }
         // cache a reference to the Unlit shader
         unlitTexture = Shader.Find("Unlit/Texture");
-        screenshotList = new List<GameObject>();
+        screenshotList = new List<ScreenshotObject>();
         hidden = false;
+        //Invokes the method methodName in time seconds, then repeatedly every repeatRate seconds.
+        float repeatrate = minutes * 6.0f / 10.0f;
+        InvokeRepeating("UpdateAlpha", 2.0f, repeatrate);
+    }
+
+    void Update()
+    {
+        /*
+        // do not capture events unless the welcome panel is hidden
+        if (welcomePanel.activeSelf)
+            return;
+        */
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            touchPosition = touch.position;
+            //Debug.Log("position: " + touchPosition.y);
+            if (touchPosition.y < 260)
+            {
+                return;
+            }
+
+            if (touch.phase == TouchPhase.Began)
+            {
+                Ray ray = arCamera.ScreenPointToRay(touch.position);
+                RaycastHit hitObject;
+                if (Physics.Raycast(ray, out hitObject))
+                {
+                    GameObject selectedShot = hitObject.transform.parent.gameObject;
+                    if (selectedShot != null)
+                    {
+                        ChangeSelectedObject(selectedShot);
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+    //Decrease the alpha of the colored pic, so it will fade and reveal the graysclae pic eventually
+    private void UpdateAlpha()
+    {
+        foreach (ScreenshotObject obj in screenshotList)
+        {
+            var renderer = obj.colorPic.GetComponent<MeshRenderer>();
+            Color oldC = renderer.material.color;
+            if (oldC.a >= 0.02f)
+            {
+                renderer.material.color = new Color(oldC.r, oldC.g, oldC.b, oldC.a - 0.01f);
+            }
+        }
     }
 
     public void TakeScreenshot()
@@ -60,11 +125,21 @@ public class ScreenshotManager : MonoBehaviour
 
     public void DeleteScreenshots()
     {
-        foreach (GameObject obj in screenshotList)
+        foreach (ScreenshotObject obj in screenshotList)
         {
-            Destroy(obj);
+            Destroy(obj.screenshotGroup);
         }
-        screenshotList = new List<GameObject>();
+        screenshotList = new List<ScreenshotObject>();
+    }
+
+    public void DeleteSelected()
+    {
+        if (selectedGroup != null)
+        { 
+            Destroy(selectedGroup.screenshotGroup);
+            screenshotList.Remove(selectedGroup);
+            selectedGroup = null;
+        }
     }
 
     private void OnPostRender()
@@ -72,11 +147,11 @@ public class ScreenshotManager : MonoBehaviour
         if (grabScreenshot)
         {
             Debug.Log("grabbing Screenshot");
-            ScreenshotObject screenshotObject = new ScreenshotObject(cam, unlitTexture, timer);
+            ScreenshotObject screenshotObject = new ScreenshotObject(cam, unlitTexture, timer, screenshotMaterial, screenshotMaterial2, screenshotMaterial3);
 
 
             if (hidden) screenshotObject.screenshotGroup.SetActive(false);
-            screenshotList.Add(screenshotObject.screenshotGroup);
+            screenshotList.Add(screenshotObject);
             //Stop grabbing a screenshot
             grabScreenshot = false;
         }
@@ -84,17 +159,34 @@ public class ScreenshotManager : MonoBehaviour
 
     private void hideImages()
     {
-        foreach (GameObject image in screenshotList)
+        foreach (ScreenshotObject image in screenshotList)
         {
-            image.SetActive(false);
+            image.screenshotGroup.SetActive(false);
         }
     }
 
     private void showImages()
     {
-        foreach (GameObject image in screenshotList)
+        foreach (ScreenshotObject image in screenshotList)
         {
-            image.SetActive(true);
+            image.screenshotGroup.SetActive(true);
+        }
+    }
+
+    void ChangeSelectedObject(GameObject selected)
+    {
+        foreach (ScreenshotObject current in screenshotList)
+        {
+            GameObject currentGroup = current.screenshotGroup;
+            if (selected != currentGroup)
+            {
+                current.Unselect();
+            }
+            else
+            {
+                selectedGroup = current;
+                current.Select();
+            }
         }
     }
 }
