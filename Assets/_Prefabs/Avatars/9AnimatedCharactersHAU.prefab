@@ -5180,7 +5180,7 @@ Animator:
   m_GameObject: {fileID: 29422816874518992}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 20e1cc899621545cf95ce3de7b5907a4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9b30a2da418f34454a5fb540664b9e98, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6298,7 +6298,7 @@ Animator:
   m_GameObject: {fileID: 5938016059420839186}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e064e26cff0c444bd931a1b301293da3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9b30a2da418f34454a5fb540664b9e98, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7054,7 +7054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4db7c91cd8141cba84d78042d5200c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.32013378
+      value: 0.3201338
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4db7c91cd8141cba84d78042d5200c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7105,7 +7105,7 @@ Animator:
   m_GameObject: {fileID: 7102539888519931909}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1e4cd34ad13504897a186bf771182e32, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9b30a2da418f34454a5fb540664b9e98, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7915,7 +7915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5b564c0a6fa6d48fb9dd409b63ad2f7b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1302482599403983808, guid: 5b564c0a6fa6d48fb9dd409b63ad2f7b, type: 3}
       propertyPath: m_Enabled
