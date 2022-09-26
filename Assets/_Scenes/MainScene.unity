@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311915, g: 0.3807396, b: 0.35872662, a: 1}
+  m_IndirectSpecularColor: {r: 0.3708625, g: 0.37838694, b: 0.35726872, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -804,12 +804,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8aa216897d8f4a2092121b1d5cb3c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scene1: Portal
-  Scene2: TabeltOnPause
+  Scene1: TabeltOnPause
+  Scene2: 220924_BigWorld_HAU1
   Scene3: FaceSwitch
-  Scene4: Portal
+  Scene4: 220922_AvatarsHau1
   Scene5: Portal
-  Scene6: Portal
+  Scene6: ScreenshotExtendedScene-wo-event
+  Scene7: 220926_HAU_5Miniaturen
+  Scene8: shaking-growing-coffeecups-and-thermos-scene
+  Scene9: ThermosScene1
 --- !u!1 &268030178
 GameObject:
   m_ObjectHideFlags: 0
