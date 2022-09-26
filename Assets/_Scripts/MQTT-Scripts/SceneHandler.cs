@@ -23,7 +23,16 @@ public class SceneHandler : MonoBehaviour
     
     [Scene] 
     public string Scene6;
-    
+
+    [Scene]
+    public string Scene7;
+
+    [Scene]
+    public string Scene8;
+
+    [Scene]
+    public string Scene9;
+
     private Scene mainScene;
 
     private Scene[] allScenes;
@@ -65,6 +74,21 @@ public class SceneHandler : MonoBehaviour
         LoadScene(Scene6);
     }
 
+    public void LoadScene7()
+    {
+        LoadScene(Scene7);
+    }
+
+    public void LoadScene8()
+    {
+        LoadScene(Scene8);
+    }
+
+    public void LoadScene9()
+    {
+        LoadScene(Scene9);
+    }
+
     public void MQTT_Load(MQTTMsg msg)
     {
         if (msg.topic.Equals("StagingAR/SceneHandler"))
@@ -79,14 +103,15 @@ public class SceneHandler : MonoBehaviour
         {
             return;
         }
-        
-        allScenes = SceneManager.GetAllScenes();
-        
-        foreach (Scene s in allScenes)
+
+        if (SceneManager.sceneCount > 0)
         {
-            if (s.buildIndex != mainScene.buildIndex)
+            for(int i=1; i < SceneManager.sceneCountInBuildSettings; i++)
             {
-                SceneManager.UnloadSceneAsync(s);
+                if (SceneManager.GetSceneByBuildIndex(i).isLoaded)
+                {
+                    SceneManager.UnloadSceneAsync(i);
+                }
             }
         }
 

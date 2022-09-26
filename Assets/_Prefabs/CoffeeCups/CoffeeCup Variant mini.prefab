@@ -208,3 +208,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 73ee3f6b07af448aa871c37371f8d8a1, type: 3}
   - {fileID: 8300000, guid: d85b878f5752b4deab77b47a8e2b58b3, type: 3}
   - {fileID: 8300000, guid: 5545e91cee39c41dba2485e3778a02e5, type: 3}
+  - {fileID: 8300000, guid: 0388dac28a03441a9b490610e3d17ad5, type: 3}
+  - {fileID: 8300000, guid: b3de559dbcb9f48058b3e2735c8ea2c6, type: 3}
+  - {fileID: 8300000, guid: fdb290814fe154556977107e3a935383, type: 3}
+  objectTag: Player
