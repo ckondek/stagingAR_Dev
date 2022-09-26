@@ -809,8 +809,8 @@ MonoBehaviour:
   Scene3: FaceSwitch
   Scene4: 220922_AvatarsHau1
   Scene5: Portal
-  Scene6: 220922_ROOMs
-  Scene7: 220923_HAU_5Miniaturen
+  Scene6: ScreenshotExtendedScene-wo-event
+  Scene7: 220926_HAU_5Miniaturen
   Scene8: shaking-growing-coffeecups-and-thermos-scene
   Scene9: ThermosScene1
 --- !u!1 &268030178
