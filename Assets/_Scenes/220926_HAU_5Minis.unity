@@ -376,6 +376,7 @@ GameObject:
   - component: {fileID: 1853753591}
   - component: {fileID: 1853753590}
   - component: {fileID: 1853753593}
+  - component: {fileID: 1853753594}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -427,6 +428,24 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: 1d45f618cbbb8474a9ca08bbbdd214b7, type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 8250511001740157112, guid: 6cf0fa67dae894fa68c2027294128205, type: 3}
+--- !u!114 &1853753594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853753589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659e377ecc076468e8c0f04740417c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  picturePrefabs:
+  - {fileID: 6231161842482128031, guid: 32f7ff283435d4fbab52e248f0fabf76, type: 3}
+  - {fileID: 2494680091227232692, guid: 6350189322a4d4a28ab048c2e66f3815, type: 3}
+  - {fileID: 334722740865897977, guid: c044b8b40807c4f539f6e37682c299d8, type: 3}
+  - {fileID: 2187117835173152130, guid: 62d4931c16c9f4dcf881c48e74691a2c, type: 3}
+  - {fileID: 3764093946464257228, guid: 945b26b964eef460bbc7e4abcac40c3b, type: 3}
 --- !u!1 &1931065101
 GameObject:
   m_ObjectHideFlags: 0

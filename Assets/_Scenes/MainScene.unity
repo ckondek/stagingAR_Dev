@@ -805,14 +805,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Scene1: TabeltOnPause
-  Scene2: 220924_BigWorld_HAU1
-  Scene3: FaceSwitch
-  Scene4: 220922_AvatarsHau1
+  Scene2: FaceSwitch
+  Scene3: 220924_BigWorld_HAU1
+  Scene4: 220926_HAU_5Minis
   Scene5: Portal
-  Scene6: ScreenshotExtendedScene-wo-event
-  Scene7: 220926_HAU_5Miniaturen
-  Scene8: shaking-growing-coffeecups-and-thermos-scene
-  Scene9: ThermosScene1
+  Scene6: ThermosScene1
+  Scene7: thermos-cup-orbit-scene
+  Scene8: ScreenshotExtendedScene-wo-event
+  Scene9: Portal
 --- !u!1 &268030178
 GameObject:
   m_ObjectHideFlags: 0
