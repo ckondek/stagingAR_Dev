@@ -50,9 +50,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/220924_BigWorld_HAU1.unity
     guid: 3d0a9e101087b473ea7a5eff3e44814e
+  - enabled: 1
+    path: Assets/_Scenes/220926_HAU_5Minis.unity
+    guid: 35fb4e21bc04e43899627ac84d979aee
   - enabled: 0
-    path: Assets/_Scenes/220923_HAU_5Miniaturen.unity
-    guid: 4724081ac8d084ffbb4502da88dc44c9
+    path: Assets/_Scenes/test target.unity
+    guid: fcb104c7ef4904afca64eb7759733a03
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bc1b66242b88344b1a351317c35bee15, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d292a6402e04f47c68f319348d1dd430, type: 2}

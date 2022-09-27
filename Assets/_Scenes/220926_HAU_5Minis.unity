@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 1853753591}
   - component: {fileID: 1853753590}
   - component: {fileID: 1853753593}
-  - component: {fileID: 1853753592}
+  - component: {fileID: 1853753594}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -413,24 +413,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1853753592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853753589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 659e377ecc076468e8c0f04740417c0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  picturePrefabs:
-  - {fileID: 2612684642639067614, guid: c3ccb9c0fe47f4003a1ff3581d01df8e, type: 3}
-  - {fileID: 2612684642639067614, guid: 3d4ee0e0932c447659617ede87f1806e, type: 3}
-  - {fileID: 2612684642639067614, guid: e398d6e0328bb4e10b7d1c80391bd9e7, type: 3}
-  - {fileID: 2612684642639067614, guid: 2a296069f6f424038b1cb3b16fce8f02, type: 3}
-  - {fileID: 2612684642639067614, guid: 21922bf78989443f3b3955d2000632c8, type: 3}
 --- !u!114 &1853753593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -443,9 +425,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 9671d9a65b1bd4cf9b676a09aa7c9db4, type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: 0d172bd4e444344e880e2f650e5d747e, type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 0}
+--- !u!114 &1853753594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853753589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659e377ecc076468e8c0f04740417c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  picturePrefabs:
+  - {fileID: 2612684642639067614, guid: 1b18550f74d5143d3b4bd1a91247af35, type: 3}
+  - {fileID: 2612684642639067614, guid: c79f00a75885d4a2abe9d1affc760f2a, type: 3}
+  - {fileID: 2612684642639067614, guid: 9b4901d27e9bc4f84b869aa8e1464fb9, type: 3}
+  - {fileID: 2612684642639067614, guid: 638b232f984894d849efffbbfc773ecf, type: 3}
+  - {fileID: 2612684642639067614, guid: 5af473adb3ef843b7951727f96d737ce, type: 3}
 --- !u!1 &1931065101
 GameObject:
   m_ObjectHideFlags: 0

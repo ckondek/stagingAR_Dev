@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ALLTARGETLIBRARY
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5629479579038584925
+  m_GuidHigh: 1286910216960015262
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5354385773640468521
+      m_GuidHigh: 6676716963777647549
+    m_SerializedTextureGuid:
+      m_GuidLow: 11869891777214582804
+      m_GuidHigh: 276725927425156232
+    m_Size: {x: 0.184, y: 0.22837058}
+    m_SpecifySize: 1
+    m_Name: BIGWORLD_FOH
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5360252436594526886
+      m_GuidHigh: 1761286760553620915
+    m_SerializedTextureGuid:
+      m_GuidLow: 14189565671146947688
+      m_GuidHigh: 8378309770167110858
+    m_Size: {x: 0.253, y: 0.18303205}
+    m_SpecifySize: 1
+    m_Name: BIGWORLD_LEFT
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5538443410959914402
+      m_GuidHigh: 5626400707028734354
+    m_SerializedTextureGuid:
+      m_GuidLow: 4916773288193996799
+      m_GuidHigh: 17712044809113791064
+    m_Size: {x: 0.18, y: 0.25467923}
+    m_SpecifySize: 1
+    m_Name: BIGWORLD_RECHTS
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4618549355930719317
+      m_GuidHigh: 6131392625324433537
+    m_SerializedTextureGuid:
+      m_GuidLow: 4920363257585079028
+      m_GuidHigh: 13438195269765582843
+    m_Size: {x: 0.0923, y: 0.06534738}
+    m_SpecifySize: 1
+    m_Name: CRASH_HOLZTISCH
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5446011355605654323
+      m_GuidHigh: 14884592694183441848
+    m_SerializedTextureGuid:
+      m_GuidLow: 8375434044486649605
+      m_GuidHigh: 8798518282827678426
+    m_Size: {x: 0.094, y: 0.09391524}
+    m_SpecifySize: 1
+    m_Name: STARS_RED
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5027407284992240651
+      m_GuidHigh: 13438265245757776023
+    m_SerializedTextureGuid:
+      m_GuidLow: 340645049897877795
+      m_GuidHigh: 9253483012305794587
+    m_Size: {x: 0.0835, y: 0.13097379}
+    m_SpecifySize: 1
+    m_Name: CHRISTIANE_TABLE_L
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5071293732306316000
+      m_GuidHigh: 1292837721535180686
+    m_SerializedTextureGuid:
+      m_GuidLow: 15278217026646418841
+      m_GuidHigh: 1735741573382813242
+    m_Size: {x: 0.0839, y: 0.11764606}
+    m_SpecifySize: 1
+    m_Name: ASTRID_TABLE_R
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5051796209683505480
+      m_GuidHigh: 6060191877837287338
+    m_SerializedTextureGuid:
+      m_GuidLow: 1499603721182910264
+      m_GuidHigh: 17903123014214256378
+    m_Size: {x: 0.0735, y: 0.1278815}
+    m_SpecifySize: 1
+    m_Name: EFFI_TABLE_W
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4883499925144251426
+      m_GuidHigh: 1054927838298483089
+    m_SerializedTextureGuid:
+      m_GuidLow: 8375434044486649605
+      m_GuidHigh: 8798518282827678426
+    m_Size: {x: 0.094, y: 0.09391524}
+    m_SpecifySize: 1
+    m_Name: ASTRID_THERMOS
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4667153042944871810
+      m_GuidHigh: 132884709750264509
+    m_SerializedTextureGuid:
+      m_GuidLow: 11869891777214582804
+      m_GuidHigh: 276725927425156232
+    m_Size: {x: 0.184, y: 0.22837058}
+    m_SpecifySize: 1
+    m_Name: AVATAR_FOH
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5200309226656672153
+      m_GuidHigh: 14337187739434847661
+    m_SerializedTextureGuid:
+      m_GuidLow: 14189565671146947688
+      m_GuidHigh: 8378309770167110858
+    m_Size: {x: 0.253, y: 0.18303205}
+    m_SpecifySize: 1
+    m_Name: AVATAR_LEFT
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4825856948465403688
+      m_GuidHigh: 3078233467400716474
+    m_SerializedTextureGuid:
+      m_GuidLow: 4916773288193996799
+      m_GuidHigh: 17712044809113791064
+    m_Size: {x: 0.18, y: 0.25467923}
+    m_SpecifySize: 1
+    m_Name: AVATAR_RIGHT
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5579685069047607724
+      m_GuidHigh: 4596864887360324485
+    m_SerializedTextureGuid:
+      m_GuidLow: 1499603721182910264
+      m_GuidHigh: 17903123014214256378
+    m_Size: {x: 0.0735, y: 0.1278815}
+    m_SpecifySize: 1
+    m_Name: PORTAL
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5237435594393668952
+      m_GuidHigh: 11016959932668326561
+    m_SerializedTextureGuid:
+      m_GuidLow: 8375434044486649605
+      m_GuidHigh: 8798518282827678426
+    m_Size: {x: 0.094, y: 0.09391524}
+    m_SpecifySize: 1
+    m_Name: CRASH_CUPS
+    m_Texture: {fileID: 0}
