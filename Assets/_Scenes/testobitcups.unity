@@ -184,6 +184,7 @@ Transform:
   - {fileID: 253122752}
   - {fileID: 914094311}
   - {fileID: 640976665}
+  - {fileID: 1440748466}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -407,6 +408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thermos-orbit-rain
       objectReference: {fileID: 0}
+    - target: {fileID: 8675846182665352437, guid: 9bd2945e5d188418ba01f3ef8dfcd51a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bd2945e5d188418ba01f3ef8dfcd51a, type: 3}
 --- !u!4 &640976665 stripped
@@ -469,12 +474,78 @@ PrefabInstance:
       propertyPath: m_Name
       value: thermos-orbit-norain
       objectReference: {fileID: 0}
+    - target: {fileID: 3284869226595817349, guid: d899c75e183484f92b5b9a8595083551, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d899c75e183484f92b5b9a8595083551, type: 3}
 --- !u!4 &914094311 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3284869226595817348, guid: d899c75e183484f92b5b9a8595083551, type: 3}
   m_PrefabInstance: {fileID: 914094310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1440748465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 228069976}
+    m_Modifications:
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.866
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 842440214719634745, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_Name
+      value: CoffeeCup Variant Shaking Variant Orbit-Scene
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+--- !u!4 &1440748466 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 70687903003330435, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+  m_PrefabInstance: {fileID: 1440748465}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1517738654
 GameObject:
