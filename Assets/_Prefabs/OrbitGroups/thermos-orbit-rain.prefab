@@ -92,6 +92,10 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2475840535815620583, guid: dece832f8c75f45028a78b9b9edfe681, type: 3}
+      propertyPath: MaxDistance
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7458278602515493702, guid: dece832f8c75f45028a78b9b9edfe681, type: 3}
       propertyPath: m_RootOrder
       value: 0
