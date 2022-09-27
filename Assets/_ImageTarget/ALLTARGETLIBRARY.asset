@@ -63,7 +63,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 8375434044486649605
       m_GuidHigh: 8798518282827678426
-    m_Size: {x: 0.094, y: 0.09391524}
+    m_Size: {x: 0.188, y: 0.18783046}
     m_SpecifySize: 1
     m_Name: STARS_RED
     m_Texture: {fileID: 0}
