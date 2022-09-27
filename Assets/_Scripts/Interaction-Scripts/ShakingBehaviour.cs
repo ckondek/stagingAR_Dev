@@ -43,7 +43,7 @@ public class ShakingBehaviour : MonoBehaviour
 
    private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "PlayerShake")
         {
             playerTransform = other.transform;
             _startPos = transform.position;
@@ -55,7 +55,7 @@ public class ShakingBehaviour : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "PlayerShake")
         {
             shaking = false;
         }
