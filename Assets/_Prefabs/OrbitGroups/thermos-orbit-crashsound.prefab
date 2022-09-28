@@ -76,7 +76,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 46aa544c473e34f36892445ff1e2e9b5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 519651647804f46568534bc43e3c956d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -175,10 +175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipArray:
-  - {fileID: 8300000, guid: 46aa544c473e34f36892445ff1e2e9b5, type: 3}
-  - {fileID: 8300000, guid: 9c01adcd622704f3bad7cfd8c4ee0d3e, type: 3}
-  - {fileID: 8300000, guid: 0c27425cb584a45aa964902c618b6447, type: 3}
-  - {fileID: 8300000, guid: 2e2066f75d5e7439daf99979772652a2, type: 3}
-  - {fileID: 8300000, guid: fe3be3cfc70a44521b911817c93f96a4, type: 3}
-  - {fileID: 8300000, guid: 692d57aec142a4b428f5a71589a68633, type: 3}
+  - {fileID: 8300000, guid: adad23830d84b4d48929c9320d65f460, type: 3}
+  - {fileID: 8300000, guid: c8eccc985c3924429b5d88ecdccc96aa, type: 3}
+  - {fileID: 8300000, guid: c24443775d26547dcbb589e1af5d1625, type: 3}
+  - {fileID: 8300000, guid: 411e7c8bc5c664f8a97cc33f50921e32, type: 3}
+  - {fileID: 8300000, guid: 519651647804f46568534bc43e3c956d, type: 3}
   objectTag: Player
