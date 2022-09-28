@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 2316295932249206291}
   - component: {fileID: 9088006851945013982}
   - component: {fileID: 5191188963587422059}
-  - component: {fileID: -6313260981571254822}
+  - component: {fileID: 1772621759652572360}
   - component: {fileID: 8366741810167396418}
-  - component: {fileID: 2859705507238527160}
   - component: {fileID: 1080678235552220076}
+  - component: {fileID: 9149233466487928557}
   m_Layer: 0
   m_Name: thermosFlat
   m_TagString: thermos
@@ -132,7 +132,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039970994, y: 0.07232724, z: 0.041116513}
   m_Center: {x: 0.002175591, y: 0.037736654, z: 0.0001530964}
---- !u!114 &-6313260981571254822
+--- !u!114 &1772621759652572360
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,12 +141,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6936341144011820069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7974ab615d775413a807fb74e8eced0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 35dc115061ac64ef0a0e9b6fb4cd72bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  growth: {x: 0.2, y: 0.2, z: 0.2}
+  growthCoefficient: 0.01
+  shrinkCoefficient: 0.2
   maxSize: 12
   minSize: 6
+  growSound: {fileID: 8300000, guid: bb8ce99834d554071b9cb79719f428fd, type: 3}
+  shrinkSound: {fileID: 8300000, guid: f5f867ada48e14987b686e6c9305a4c2, type: 3}
 --- !u!82 &8366741810167396418
 AudioSource:
   m_ObjectHideFlags: 0
@@ -157,7 +160,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 100fb0bf8de3a48f1a8d94714a77e5ca, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.484
   m_Pitch: 1
@@ -168,9 +171,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.35
   MinDistance: 0.1
-  MaxDistance: 2
+  MaxDistance: 10
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -203,7 +206,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -243,25 +246,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2859705507238527160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6936341144011820069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04523910e45934e2f84f61bb25cbdbdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipArray:
-  - {fileID: 8300000, guid: 0be5ba048e7cc4638bcbc27ae96e95c4, type: 3}
-  - {fileID: 8300000, guid: 3e0753be2f8b94f5987b663945a15bb5, type: 3}
-  - {fileID: 8300000, guid: a8ea1de6c61ca4d239e59ee312849ea1, type: 3}
-  - {fileID: 8300000, guid: 2a280a21731d54e198957ef2abd4533c, type: 3}
-  - {fileID: 8300000, guid: 3ee456c98d2bc4b7ab2d1c46d16a1d6b, type: 3}
-  - {fileID: 8300000, guid: c1af51e45fc6a444482d1161f8df8e09, type: 3}
 --- !u!114 &1080678235552220076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,3 +259,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+--- !u!114 &9149233466487928557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6936341144011820069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a855908a195784b7489c7ba0b3c793d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipArray:
+  - {fileID: 8300000, guid: 0be5ba048e7cc4638bcbc27ae96e95c4, type: 3}
+  - {fileID: 8300000, guid: 3e0753be2f8b94f5987b663945a15bb5, type: 3}
+  - {fileID: 8300000, guid: a8ea1de6c61ca4d239e59ee312849ea1, type: 3}
+  - {fileID: 8300000, guid: 2a280a21731d54e198957ef2abd4533c, type: 3}
+  - {fileID: 8300000, guid: 3ee456c98d2bc4b7ab2d1c46d16a1d6b, type: 3}
+  - {fileID: 8300000, guid: c1af51e45fc6a444482d1161f8df8e09, type: 3}
