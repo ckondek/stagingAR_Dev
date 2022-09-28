@@ -75,7 +75,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4684519843298467913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.86999995, y: -0.76100004, z: 3.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -228,15 +228,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.4000001
+      value: 1.27
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5
+      value: -1.9100001
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -270,6 +270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thermos-orbit-crashsound (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
 --- !u!4 &4077643454856533417 stripped
@@ -290,15 +294,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5999999
+      value: -0.72999996
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.5
+      value: -1.4100001
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -331,6 +335,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -414,15 +422,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.099999905
+      value: 0.77000004
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 2.09
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -455,6 +463,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -600,15 +612,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6
+      value: -1.73
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.5
+      value: 1.5899999
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -641,6 +653,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -1696,6 +1712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoffeeCup Variant Shaking Variant Orbit-Scene (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 842440214719634745, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26eb7f7b16b15423a921bd44eaf2bcdf, type: 3}
 --- !u!4 &2496854067679535513 stripped
@@ -1964,15 +1984,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4000001
+      value: 2.2699997
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3
+      value: 0.089999974
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2005,6 +2025,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -2088,15 +2112,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.1
+      value: -1.23
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.5
+      value: -0.41000003
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2129,6 +2153,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -2460,15 +2488,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6
+      value: -1.73
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5
+      value: -1.9100001
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2501,6 +2529,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -2832,15 +2864,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.4000001
+      value: 1.27
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: -0.91
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2873,6 +2905,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -3018,15 +3054,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19
+      value: 0.68
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.5
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3060,6 +3096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thermos-orbit-crashsound
       objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
 --- !u!4 &85248464891179044 stripped
@@ -3080,15 +3120,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5999999
+      value: -0.72999996
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 2.09
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3121,6 +3161,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -3452,15 +3496,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0999999
+      value: -0.22999996
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.5
+      value: -2.41
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3494,6 +3538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thermos-orbit-crashsound (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
 --- !u!4 &8836899137612350925 stripped
@@ -3514,15 +3562,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.76
+      value: 0.109999955
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.95
+      value: 0.13999993
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3555,6 +3603,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -3886,15 +3938,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4000001
+      value: 2.2699997
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.5
+      value: -2.41
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3927,6 +3979,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -4072,15 +4128,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.56
+      value: -0.69
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.5
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4114,6 +4170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thermos-orbit-crashsound (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
 --- !u!4 &7546261004071532354 stripped
@@ -4134,15 +4194,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9000001
+      value: 1.7699997
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.5
+      value: 1.5899999
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4175,6 +4235,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -4382,15 +4446,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.76
+      value: 0.109999955
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.63
+      value: -0.54000014
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4423,6 +4487,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -4630,15 +4698,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.1
+      value: -2.23
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.339
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.5
+      value: -0.41000003
       objectReference: {fileID: 0}
     - target: {fileID: 4376106695595586970, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4671,6 +4739,10 @@ PrefabInstance:
     - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
       propertyPath: m_Name
       value: thermos-orbit-crashsound (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4376106695595586971, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b83d56f855424185a397f30935dbdaf, type: 3}
@@ -5208,15 +5280,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d985cdc4d27f4f9aa5e9be150e90fa4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.9511327
+      value: -0.8141328
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d985cdc4d27f4f9aa5e9be150e90fa4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.8511057
+      value: 2.0901055
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d985cdc4d27f4f9aa5e9be150e90fa4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.8421297
+      value: 0.73587036
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d985cdc4d27f4f9aa5e9be150e90fa4, type: 3}
       propertyPath: m_LocalRotation.w
