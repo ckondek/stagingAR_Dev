@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ALLTARGETSREDUCED
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4674606205220235736
+  m_GuidHigh: 8410331739878284190
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4618549355930719317
+      m_GuidHigh: 6131392625324433537
+    m_SerializedTextureGuid:
+      m_GuidLow: 4920363257585079028
+      m_GuidHigh: 13438195269765582843
+    m_Size: {x: 0.0923, y: 0.06534738}
+    m_SpecifySize: 1
+    m_Name: CRASH_HOLZTISCH
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5446011355605654323
+      m_GuidHigh: 14884592694183441848
+    m_SerializedTextureGuid:
+      m_GuidLow: 8375434044486649605
+      m_GuidHigh: 8798518282827678426
+    m_Size: {x: 0.094, y: 0.09391524}
+    m_SpecifySize: 1
+    m_Name: STARS_RED
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5027407284992240651
+      m_GuidHigh: 13438265245757776023
+    m_SerializedTextureGuid:
+      m_GuidLow: 340645049897877795
+      m_GuidHigh: 9253483012305794587
+    m_Size: {x: 0.0835, y: 0.13097379}
+    m_SpecifySize: 1
+    m_Name: CHRISTIANE_TABLE_L
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5071293732306316000
+      m_GuidHigh: 1292837721535180686
+    m_SerializedTextureGuid:
+      m_GuidLow: 15278217026646418841
+      m_GuidHigh: 1735741573382813242
+    m_Size: {x: 0.0839, y: 0.11764606}
+    m_SpecifySize: 1
+    m_Name: ASTRID_TABLE_R
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5051796209683505480
+      m_GuidHigh: 6060191877837287338
+    m_SerializedTextureGuid:
+      m_GuidLow: 1499603721182910264
+      m_GuidHigh: 17903123014214256378
+    m_Size: {x: 0.0735, y: 0.1278815}
+    m_SpecifySize: 1
+    m_Name: EFFI_TABLE_W
+    m_Texture: {fileID: 0}
