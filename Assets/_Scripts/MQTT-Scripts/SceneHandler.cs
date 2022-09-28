@@ -33,6 +33,9 @@ public class SceneHandler : MonoBehaviour
     [Scene]
     public string Scene9;
 
+    [Scene]
+    public string Scene10;
+
     private Scene mainScene;
 
     private Scene[] allScenes;
@@ -99,7 +102,7 @@ public class SceneHandler : MonoBehaviour
     
   private IEnumerator LoadScene(string sceneName)
     {
-        if (SceneManager.GetActiveScene().name.Equals(sceneName))
+        if (SceneManager.GetSceneByName(sceneName).isLoaded)
         {
             yield break;
         }
