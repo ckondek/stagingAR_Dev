@@ -99,7 +99,7 @@ public class SceneHandler : MonoBehaviour
     
   private IEnumerator LoadScene(string sceneName)
     {
-        if (SceneManager.GetActiveScene().name.Equals(sceneName))
+        if (SceneManager.GetSceneByName(sceneName).isLoaded)
         {
             yield break;
         }
