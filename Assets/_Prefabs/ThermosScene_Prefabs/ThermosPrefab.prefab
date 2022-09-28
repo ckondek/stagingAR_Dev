@@ -50,6 +50,7 @@ MonoBehaviour:
   z2: 2
   y: 6
   spawnTime: 5
+  startAfter: 120
   prefabToSpawn: {fileID: 6936341144011820069, guid: 79f093d0633304fa4bab04b02cac711b, type: 3}
 --- !u!1 &3726714773750048535
 GameObject:
@@ -221,7 +222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7482950015995674285
 Transform:
   m_ObjectHideFlags: 0
@@ -345,8 +346,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newObject: {fileID: 6936341144011820069, guid: 79f093d0633304fa4bab04b02cac711b, type: 3}
-  spawnTime: 5
-  start: 30
+  spawnTime: 10
+  start: 10
 --- !u!1 &9094276836795809527
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,7 +549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7712701513510950559, guid: 79f093d0633304fa4bab04b02cac711b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7712701513510950559, guid: 79f093d0633304fa4bab04b02cac711b, type: 3}
       propertyPath: m_LocalPosition.z
