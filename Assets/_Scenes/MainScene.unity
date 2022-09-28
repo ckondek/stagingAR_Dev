@@ -466,14 +466,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b68246dc984f4c6ab90fc1b611f8f5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brokerAddress: 172.105.247.101
+  brokerAddress: 192.168.86.128
   brokerPort: 1883
   isEncrypted: 0
   connectionDelay: 500
   timeoutOnConnection: 30000
   autoConnect: 1
-  mqttUserName: Spiel
-  mqttPassword: puppe2010
+  mqttUserName: 
+  mqttPassword: 
   autoTest: 0
   timeStamp: 0
   isConnected: 0
@@ -805,14 +805,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Scene1: TabeltOnPause
-  Scene2: FaceSwitch
-  Scene3: Portal
-  Scene4: 
-  Scene5: Portal
-  Scene6: 
-  Scene7: Portal
-  Scene8: TabeltOnPause
+  Scene2: 220924_BigWorld_HAU1
+  Scene3: 220922_ROOMs
+  Scene4: ThermosScene1
+  Scene5: thermos-cup-orbit-scene
+  Scene6: 220926_HAU_5Minis
+  Scene7: 220922_AvatarsHau1
+  Scene8: FaceSwitch
   Scene9: Portal
+  Scene10: ScreenshotExtendedScene-wo-event
 --- !u!1 &268030178
 GameObject:
   m_ObjectHideFlags: 0

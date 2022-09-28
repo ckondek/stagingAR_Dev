@@ -33,6 +33,9 @@ public class SceneHandler : MonoBehaviour
     [Scene]
     public string Scene9;
 
+    [Scene]
+    public string Scene10;
+
     private Scene mainScene;
 
     private Scene[] allScenes;
