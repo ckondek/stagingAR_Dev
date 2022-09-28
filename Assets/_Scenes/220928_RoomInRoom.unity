@@ -197,8 +197,6 @@ GameObject:
   - component: {fileID: 1846630033}
   - component: {fileID: 1846630032}
   - component: {fileID: 1846630031}
-  - component: {fileID: 1846630037}
-  - component: {fileID: 1846630036}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: MainCamera
@@ -315,56 +313,6 @@ Transform:
   m_Father: {fileID: 1853753591}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1846630036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846630029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b15f82cc229284894964d2d30806969d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HumanSegmentationStencilMode: 3
-  m_HumanSegmentationDepthMode: 2
-  m_EnvironmentDepthMode: 3
-  m_EnvironmentDepthTemporalSmoothing: 1
-  m_OcclusionPreferenceMode: 0
---- !u!114 &1846630037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846630029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
 --- !u!1 &1853753589
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,8 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1853753591}
   - component: {fileID: 1853753590}
-  - component: {fileID: 1853753593}
-  - component: {fileID: 1853753594}
+  - component: {fileID: 1853753592}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -413,7 +360,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1853753593
+--- !u!114 &1853753592
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -425,26 +372,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: ef3e35e714fbc4ba7aa863842436b082, type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: d10929981d01f4063b2e9c4200807c1a, type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 0}
---- !u!114 &1853753594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853753589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 659e377ecc076468e8c0f04740417c0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  picturePrefabs:
-  - {fileID: 2612684642639067614, guid: 638b232f984894d849efffbbfc773ecf, type: 3}
-  - {fileID: 2612684642639067614, guid: 1b18550f74d5143d3b4bd1a91247af35, type: 3}
-  - {fileID: 2612684642639067614, guid: 9b4901d27e9bc4f84b869aa8e1464fb9, type: 3}
-  - {fileID: 2612684642639067614, guid: c79f00a75885d4a2abe9d1affc760f2a, type: 3}
+  m_TrackedImagePrefab: {fileID: 7680472424649510696, guid: f52470403e8604ce99bb8f96f3b435d1, type: 3}
 --- !u!1 &1931065101
 GameObject:
   m_ObjectHideFlags: 0
