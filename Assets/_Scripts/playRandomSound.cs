@@ -6,6 +6,7 @@ public class playRandomSound : MonoBehaviour
 {
    private AudioSource _as;
     public AudioClip[] clipArray;
+    public string objectTag;
 
     void Awake()
     {
@@ -22,7 +23,7 @@ public class playRandomSound : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.tag == "Player")
+        if (other.tag == objectTag)
         {
             _as.clip = clipArray[Random.Range(0,clipArray.Length)];
             _as.Play(0);
