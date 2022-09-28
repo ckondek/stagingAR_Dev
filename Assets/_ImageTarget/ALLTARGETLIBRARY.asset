@@ -88,56 +88,6 @@ MonoBehaviour:
     m_Name: ASTRID_TABLE_R
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5051796209683505480
-      m_GuidHigh: 6060191877837287338
-    m_SerializedTextureGuid:
-      m_GuidLow: 1499603721182910264
-      m_GuidHigh: 17903123014214256378
-    m_Size: {x: 0.0735, y: 0.1278815}
-    m_SpecifySize: 1
-    m_Name: EFFI_TABLE_W
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 4883499925144251426
-      m_GuidHigh: 1054927838298483089
-    m_SerializedTextureGuid:
-      m_GuidLow: 8375434044486649605
-      m_GuidHigh: 8798518282827678426
-    m_Size: {x: 0.094, y: 0.09391524}
-    m_SpecifySize: 1
-    m_Name: ASTRID_THERMOS
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 4667153042944871810
-      m_GuidHigh: 132884709750264509
-    m_SerializedTextureGuid:
-      m_GuidLow: 11869891777214582804
-      m_GuidHigh: 276725927425156232
-    m_Size: {x: 0.184, y: 0.22837058}
-    m_SpecifySize: 1
-    m_Name: AVATAR_FOH
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5200309226656672153
-      m_GuidHigh: 14337187739434847661
-    m_SerializedTextureGuid:
-      m_GuidLow: 14189565671146947688
-      m_GuidHigh: 8378309770167110858
-    m_Size: {x: 0.253, y: 0.18303205}
-    m_SpecifySize: 1
-    m_Name: AVATAR_LEFT
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 4825856948465403688
-      m_GuidHigh: 3078233467400716474
-    m_SerializedTextureGuid:
-      m_GuidLow: 4916773288193996799
-      m_GuidHigh: 17712044809113791064
-    m_Size: {x: 0.18, y: 0.25467923}
-    m_SpecifySize: 1
-    m_Name: AVATAR_RIGHT
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
       m_GuidLow: 5579685069047607724
       m_GuidHigh: 4596864887360324485
     m_SerializedTextureGuid:
@@ -146,14 +96,4 @@ MonoBehaviour:
     m_Size: {x: 0.0735, y: 0.1278815}
     m_SpecifySize: 1
     m_Name: PORTAL
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5237435594393668952
-      m_GuidHigh: 11016959932668326561
-    m_SerializedTextureGuid:
-      m_GuidLow: 8375434044486649605
-      m_GuidHigh: 8798518282827678426
-    m_Size: {x: 0.094, y: 0.09391524}
-    m_SpecifySize: 1
-    m_Name: CRASH_CUPS
     m_Texture: {fileID: 0}

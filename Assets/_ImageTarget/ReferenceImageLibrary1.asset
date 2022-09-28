@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
-  m_Name: ReferenceImageLibraryNewTarget 1
+  m_Name: ReferenceImageLibrary1
   m_EditorClassIdentifier: 
-  m_GuidLow: 5331155702478581980
-  m_GuidHigh: 17974541158512258201
+  m_GuidLow: 5553902630403189907
+  m_GuidHigh: 14873678412340140935
   m_DataStore:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5384668575955914624
-      m_GuidHigh: 4423085181521410735
+      m_GuidLow: 4746858117687351295
+      m_GuidHigh: 1714779447821396641
     m_SerializedTextureGuid:
-      m_GuidLow: 6056120558258015299
-      m_GuidHigh: 292053667281985483
-    m_Size: {x: 0.124, y: 0.1539019}
+      m_GuidLow: 14189565671146947688
+      m_GuidHigh: 8378309770167110858
+    m_Size: {x: 0.25, y: 0.18086173}
     m_SpecifySize: 1
-    m_Name: AR_Target
+    m_Name: PORTAL
     m_Texture: {fileID: 0}

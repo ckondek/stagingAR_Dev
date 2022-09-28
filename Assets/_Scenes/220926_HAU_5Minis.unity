@@ -427,7 +427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: 0d172bd4e444344e880e2f650e5d747e, type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 0}
+  m_TrackedImagePrefab: {fileID: 8250511001740157112, guid: 6cf0fa67dae894fa68c2027294128205, type: 3}
 --- !u!114 &1853753594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,11 +441,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   picturePrefabs:
-  - {fileID: 2612684642639067614, guid: 1b18550f74d5143d3b4bd1a91247af35, type: 3}
-  - {fileID: 2612684642639067614, guid: c79f00a75885d4a2abe9d1affc760f2a, type: 3}
-  - {fileID: 2612684642639067614, guid: 9b4901d27e9bc4f84b869aa8e1464fb9, type: 3}
-  - {fileID: 2612684642639067614, guid: 638b232f984894d849efffbbfc773ecf, type: 3}
-  - {fileID: 2612684642639067614, guid: 5af473adb3ef843b7951727f96d737ce, type: 3}
+  - {fileID: 6231161842482128031, guid: 32f7ff283435d4fbab52e248f0fabf76, type: 3}
+  - {fileID: 2494680091227232692, guid: 6350189322a4d4a28ab048c2e66f3815, type: 3}
+  - {fileID: 334722740865897977, guid: c044b8b40807c4f539f6e37682c299d8, type: 3}
+  - {fileID: 2187117835173152130, guid: 62d4931c16c9f4dcf881c48e74691a2c, type: 3}
+  - {fileID: 3764093946464257228, guid: 945b26b964eef460bbc7e4abcac40c3b, type: 3}
 --- !u!1 &1931065101
 GameObject:
   m_ObjectHideFlags: 0

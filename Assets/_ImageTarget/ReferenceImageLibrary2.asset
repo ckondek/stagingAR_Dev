@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
-  m_Name: ReferenceImageLibraryPortal
+  m_Name: ReferenceImageLibrary2
   m_EditorClassIdentifier: 
-  m_GuidLow: 5444036548011163438
-  m_GuidHigh: 1577836087833278604
+  m_GuidLow: 4807636145732048412
+  m_GuidHigh: 1443323056959156638
   m_DataStore:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5354385773640468521
-      m_GuidHigh: 6676716963777647549
+      m_GuidLow: 5584252908066925470
+      m_GuidHigh: 4234817866537806494
     m_SerializedTextureGuid:
-      m_GuidLow: 8380998813307293308
-      m_GuidHigh: 5769638035991921386
-    m_Size: {x: 0.14733428, y: 0.103}
+      m_GuidLow: 7236253982517264220
+      m_GuidHigh: 17496004885488693865
+    m_Size: {x: 0.0839, y: 0.13658524}
     m_SpecifySize: 1
-    m_Name: life-target
+    m_Name: PORTAL
     m_Texture: {fileID: 0}

@@ -5,57 +5,39 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/_Scenes/MiniScene.unity
-    guid: 3a78806f3f8bb46c1a05c0f075646e19
-  - enabled: 0
-    path: Assets/_Scenes/cubeScene.unity
-    guid: a93e7f1dde7684ac685d1209e9fdc8db
-  - enabled: 0
-    path: Assets/_Scenes/FaceSwitch.unity
-    guid: b716b25c64add4158a80c91967185ddc
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/MainScene.unity
     guid: 5489e653bf3114a2885e389fe16acfa1
-  - enabled: 0
-    path: Assets/_Scenes/MiniScene.unity
-    guid: 3a78806f3f8bb46c1a05c0f075646e19
-  - enabled: 0
-    path: Assets/_Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/_Scenes/SchnekeWelt.unity
-    guid: 60b722edbc3e04cc1a1ce895af53b9a3
-  - enabled: 0
-    path: Assets/_Scenes/ScreenshotExtendedScene.unity
-    guid: 389dcc8a85e2b4c069cd0a0622d80028
-  - enabled: 0
-    path: Assets/_Scenes/ScreenshotScene.unity
-    guid: f5ad1946c1eff432cb9e4fe8d816e541
-  - enabled: 0
+  - enabled: 1
+    path: Assets/_Scenes/220924_BigWorld_HAU1.unity
+    guid: 3d0a9e101087b473ea7a5eff3e44814e
+  - enabled: 1
+    path: Assets/_Scenes/FaceSwitch.unity
+    guid: b716b25c64add4158a80c91967185ddc
+  - enabled: 1
+    path: Assets/_Scenes/220926_HAU_5Minis.unity
+    guid: 35fb4e21bc04e43899627ac84d979aee
+  - enabled: 1
+    path: Assets/_Scenes/ScreenshotExtendedScene-wo-event.unity
+    guid: 749dea84952e942beb11e28bf98d13e3
+  - enabled: 1
     path: Assets/_Scenes/shaking-growing-coffeecups-and-thermos-scene.unity
     guid: 2ee23952778074ed9ab7e1fa5287da90
-  - enabled: 0
-    path: Assets/_Scenes/New Scene.unity
-    guid: 9d4a64d0eaabc4ae48134681a06debf0
+  - enabled: 1
+    path: Assets/_Scenes/TabeltOnPause.unity
+    guid: 8d24b2db5be854f6a913c9ca2a83f01f
+  - enabled: 1
+    path: Assets/_Scenes/thermos-cup-orbit-scene.unity
+    guid: 72a52b7ffa3374379835db1b453feeaa
+  - enabled: 1
+    path: Assets/_Scenes/ThermosScene1.unity
+    guid: f2bfe5144fbc44df0b7ec89b36ab52cc
+  - enabled: 1
+    path: Assets/_Scenes/Portal.unity
+    guid: 1665d4f9d1f824ce0b06085e0a981f7d
   - enabled: 1
     path: Assets/_Scenes/220922_AvatarsHau1.unity
     guid: 5a46db1f4d69342618c91555a26bcca9
-  - enabled: 0
-    path: Assets/_Scenes/220922_ROOMs.unity
-    guid: 6b346b7ad589049b29951f380c7f5ffb
-  - enabled: 0
-    path: Assets/_Scenes/220923_HAU_5TischeTest.unity
-    guid: 8994f856ed2b5419699f4a6b1eddfe13
-  - enabled: 0
-    path: Assets/_Scenes/220924_BigWorld_HAU1.unity
-    guid: 3d0a9e101087b473ea7a5eff3e44814e
-  - enabled: 0
-    path: Assets/_Scenes/220926_HAU_5Minis.unity
-    guid: 35fb4e21bc04e43899627ac84d979aee
-  - enabled: 0
-    path: Assets/_Scenes/test target.unity
-    guid: fcb104c7ef4904afca64eb7759733a03
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bc1b66242b88344b1a351317c35bee15, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d292a6402e04f47c68f319348d1dd430, type: 2}
