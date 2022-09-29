@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: 4TablesLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5325188820332992427
+  m_GuidHigh: 67798004555265975
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4951045170568868159
+      m_GuidHigh: 188002683010213546
+    m_SerializedTextureGuid:
+      m_GuidLow: 340645049897877795
+      m_GuidHigh: 9253483012305794587
+    m_Size: {x: 0.0835, y: 0.13097379}
+    m_SpecifySize: 1
+    m_Name: CHRISTIANE_TABLE_L1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4920721870951209168
+      m_GuidHigh: 16698878367883458477
+    m_SerializedTextureGuid:
+      m_GuidLow: 15278217026646418841
+      m_GuidHigh: 1735741573382813242
+    m_Size: {x: 0.0835, y: 0.11708518}
+    m_SpecifySize: 1
+    m_Name: ASTRID_TABLE_R1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5447760287259112247
+      m_GuidHigh: 8520131892098411910
+    m_SerializedTextureGuid:
+      m_GuidLow: 7236253982517264220
+      m_GuidHigh: 17496004885488693865
+    m_Size: {x: 0.086, y: 0.14000393}
+    m_SpecifySize: 1
+    m_Name: EFFI_TABLE_W1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4761868530399853899
+      m_GuidHigh: 10446373494399744185
+    m_SerializedTextureGuid:
+      m_GuidLow: 4920363257585079028
+      m_GuidHigh: 13438195269765582843
+    m_Size: {x: 0.0923, y: 0.06534738}
+    m_SpecifySize: 1
+    m_Name: CRASH_HOLZTISCH1
+    m_Texture: {fileID: 0}
