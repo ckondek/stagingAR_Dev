@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
-  m_Name: AVATARS_IMAGELIBRARY
+  m_Name: AVATARS_IMAGAELIBRARY
   m_EditorClassIdentifier: 
-  m_GuidLow: 5107983999194980853
-  m_GuidHigh: 3937521002880893856
+  m_GuidLow: 5080583729132453936
+  m_GuidHigh: 6134798961363204520
   m_DataStore:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5094470960912861269
-      m_GuidHigh: 16503658606812163494
+      m_GuidLow: 4622985075294209352
+      m_GuidHigh: 17486298739364125613
     m_SerializedTextureGuid:
-      m_GuidLow: 11869891777214582804
-      m_GuidHigh: 276725927425156232
-    m_Size: {x: 0.184, y: 0.22837058}
+      m_GuidLow: 4916773288193996799
+      m_GuidHigh: 17712044809113791064
+    m_Size: {x: 0.184, y: 0.26033875}
     m_SpecifySize: 1
     m_Name: AVATARS
     m_Texture: {fileID: 0}
