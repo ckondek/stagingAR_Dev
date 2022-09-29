@@ -443,8 +443,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   picturePrefabs:
   - {fileID: 4397771366891143707, guid: 60eee43685bcb4f63abd14dff91d3caf, type: 3}
-  - {fileID: 6849220358642528436, guid: b3ed4b77680de4aaf864f895824a62f7, type: 3}
-  - {fileID: 8386676482999525776, guid: 8d77b8b4b665447d09daf51d13b8425c, type: 3}
 --- !u!114 &1853753595
 MonoBehaviour:
   m_ObjectHideFlags: 0
