@@ -472,13 +472,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   picturePrefabs:
-  - {fileID: 2612684642639067614, guid: 638b232f984894d849efffbbfc773ecf, type: 3}
-  - {fileID: 2612684642639067614, guid: 1b18550f74d5143d3b4bd1a91247af35, type: 3}
-  - {fileID: 2612684642639067614, guid: 9b4901d27e9bc4f84b869aa8e1464fb9, type: 3}
-  - {fileID: 2612684642639067614, guid: c79f00a75885d4a2abe9d1affc760f2a, type: 3}
-  - {fileID: 2612684642639067614, guid: c79f00a75885d4a2abe9d1affc760f2a, type: 3}
-  - {fileID: 2612684642639067614, guid: c79f00a75885d4a2abe9d1affc760f2a, type: 3}
-  - {fileID: 2612684642639067614, guid: c79f00a75885d4a2abe9d1affc760f2a, type: 3}
+  - {fileID: 2612684642639067614, guid: 5538c2330c1974b2e8c1ab1984bb8d8e, type: 3}
+  - {fileID: 2612684642639067614, guid: dc6830094324d431fa280530967e29ae, type: 3}
+  - {fileID: 2612684642639067614, guid: 747f3855dc305425683b9ad92e899e0e, type: 3}
+  - {fileID: 2612684642639067614, guid: 21ad8ff7db1724f6689a804b2e3f7682, type: 3}
 --- !u!1 &1931065101
 GameObject:
   m_ObjectHideFlags: 0

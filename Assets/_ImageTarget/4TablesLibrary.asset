@@ -25,7 +25,7 @@ MonoBehaviour:
       m_GuidHigh: 9253483012305794587
     m_Size: {x: 0.0835, y: 0.13097379}
     m_SpecifySize: 1
-    m_Name: CHRISTIANE_TABLE_L
+    m_Name: CHRISTIANE_TABLE_L1
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4920721870951209168
@@ -35,7 +35,7 @@ MonoBehaviour:
       m_GuidHigh: 1735741573382813242
     m_Size: {x: 0.0835, y: 0.11708518}
     m_SpecifySize: 1
-    m_Name: ASTRID_TABLE_R
+    m_Name: ASTRID_TABLE_R1
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5447760287259112247
@@ -45,7 +45,7 @@ MonoBehaviour:
       m_GuidHigh: 17496004885488693865
     m_Size: {x: 0.086, y: 0.14000393}
     m_SpecifySize: 1
-    m_Name: EFFI_TABLE_W
+    m_Name: EFFI_TABLE_W1
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4761868530399853899
@@ -55,5 +55,5 @@ MonoBehaviour:
       m_GuidHigh: 13438195269765582843
     m_Size: {x: 0.0923, y: 0.06534738}
     m_SpecifySize: 1
-    m_Name: CRASH_HOLZTISCH
+    m_Name: CRASH_HOLZTISCH1
     m_Texture: {fileID: 0}
