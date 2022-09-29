@@ -25,5 +25,5 @@ MonoBehaviour:
       m_GuidHigh: 3267051875318584697
     m_Size: {x: 0.1195, y: 0.1195}
     m_SpecifySize: 1
-    m_Name: portalPic
+    m_Name: PORTAL
     m_Texture: {fileID: 0}
