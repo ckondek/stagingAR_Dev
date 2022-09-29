@@ -126,6 +126,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: EverythingHAU
       objectReference: {fileID: 0}
+    - target: {fileID: 1885687042487289569, guid: b9dce17c07e3243cca0efa81e6af5d50, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -469.08395
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885687042487289569, guid: b9dce17c07e3243cca0efa81e6af5d50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -558.69995
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724535850889940719, guid: b9dce17c07e3243cca0efa81e6af5d50, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521690883999988293, guid: b9dce17c07e3243cca0efa81e6af5d50, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ececd33eb997f472ca00dfc85a457123, type: 2}
+    - target: {fileID: 8427045756368301423, guid: b9dce17c07e3243cca0efa81e6af5d50, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -469.65945
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427045756368301423, guid: b9dce17c07e3243cca0efa81e6af5d50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -558.69995
+      objectReference: {fileID: 0}
     - target: {fileID: 8567104161044422366, guid: b9dce17c07e3243cca0efa81e6af5d50, type: 3}
       propertyPath: m_RootOrder
       value: 0
