@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 56180839}
   - component: {fileID: 56180838}
   - component: {fileID: 56180840}
+  - component: {fileID: 56180841}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -182,9 +183,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 58659480a237e42a7a0c6a9415d3bb55, type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: a14fdea9c44c04c78b9e693aa6ae57ca, type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 241450950956303483, guid: 4875feeeb49ea4a31a97409e2e5c4c53, type: 3}
+--- !u!114 &56180841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56180837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a367c568f0949c693f4c5808bbc54d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arTrackedImageManager: {fileID: 56180840}
+  library: {fileID: 11400000, guid: a14fdea9c44c04c78b9e693aa6ae57ca, type: 2}
 --- !u!1 &125473513
 GameObject:
   m_ObjectHideFlags: 0

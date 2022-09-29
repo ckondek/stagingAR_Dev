@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/ScreenshotExtendedScene-wo-event.unity
     guid: 749dea84952e942beb11e28bf98d13e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/shaking-growing-coffeecups-and-thermos-scene.unity
     guid: 2ee23952778074ed9ab7e1fa5287da90
   - enabled: 1
