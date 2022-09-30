@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3f39d6332ec468c9d5ce5cd7bbcb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
 --- !u!114 &9149233466487928557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,10 +271,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a855908a195784b7489c7ba0b3c793d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipArray:
-  - {fileID: 8300000, guid: 0be5ba048e7cc4638bcbc27ae96e95c4, type: 3}
-  - {fileID: 8300000, guid: 3e0753be2f8b94f5987b663945a15bb5, type: 3}
-  - {fileID: 8300000, guid: a8ea1de6c61ca4d239e59ee312849ea1, type: 3}
-  - {fileID: 8300000, guid: 2a280a21731d54e198957ef2abd4533c, type: 3}
-  - {fileID: 8300000, guid: 3ee456c98d2bc4b7ab2d1c46d16a1d6b, type: 3}
-  - {fileID: 8300000, guid: c1af51e45fc6a444482d1161f8df8e09, type: 3}

@@ -50,7 +50,7 @@ MonoBehaviour:
   z2: 2
   y: 6
   spawnTime: 5
-  startAfter: 120
+  startAfter: 20
   prefabToSpawn: {fileID: 6936341144011820069, guid: 79f093d0633304fa4bab04b02cac711b, type: 3}
 --- !u!1 &3726714773750048535
 GameObject:
@@ -349,6 +349,7 @@ MonoBehaviour:
   newObject: {fileID: 6936341144011820069, guid: 79f093d0633304fa4bab04b02cac711b, type: 3}
   spawnTime: 10
   start: 10
+  firstThermos: {fileID: 8729919517047250753}
 --- !u!1 &6845466370877001980
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,5 +641,10 @@ PrefabInstance:
 --- !u!4 &8245307106214381051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7712701513510950559, guid: 79f093d0633304fa4bab04b02cac711b, type: 3}
+  m_PrefabInstance: {fileID: 1829642363301630820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8729919517047250753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6936341144011820069, guid: 79f093d0633304fa4bab04b02cac711b, type: 3}
   m_PrefabInstance: {fileID: 1829642363301630820}
   m_PrefabAsset: {fileID: 0}
