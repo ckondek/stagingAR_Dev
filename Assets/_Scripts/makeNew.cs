@@ -9,15 +9,16 @@ public class makeNew : MonoBehaviour
     public GameObject newObject;
     public float spawnTime;
     public float start;
+    public GameObject firstThermos;
     private float counter;
     private float timer;
-   // private ARSessionOrigin origin;
+    private ARSessionOrigin origin;
    
     void Start()
     {
         counter = 0f;
         timer = 0f;
-       // origin = GameObject.FindObjectOfType<ARSessionOrigin>();
+        origin = GameObject.FindObjectOfType<ARSessionOrigin>();
     }
 
     // Update is called once per frame
@@ -32,13 +33,14 @@ public class makeNew : MonoBehaviour
             {
 
               // this.transform.position = origin.transform.position;
-               Instantiate(newObject,
+               var spawned = Instantiate(newObject,
                               new Vector3(0.0f, 4.0f, 0.0f),
                               Quaternion.identity);
 
-               // spawned.transform.parent = origin.transform;
+               spawned.transform.parent = origin.transform;
+                spawned.transform.position = firstThermos.transform.position + new Vector3(0.0f, 4.0f, 0.0f);
 
-                counter = 0f;
+               counter = 0f;
             }
 
 
