@@ -590,8 +590,8 @@ Transform:
   m_GameObject: {fileID: 4504281087577269612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.58, y: 0.406, z: 0.58}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8123637015705199935}
   m_RootOrder: 3
@@ -4947,20 +4947,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 14c38a24ba46044f5b31b51afee84df9, type: 3}
   m_PrefabInstance: {fileID: 2552218384626819529}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &9213981163156521631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3434598110874705048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5e1eecf9d1054cb5a5af601b76544a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topic: EffiPortal
-  animator: {fileID: 6641314589297993768}
 --- !u!95 &6641314589297993768
 Animator:
   serializedVersion: 4
@@ -4981,6 +4967,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9213981163156521631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3434598110874705048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e1eecf9d1054cb5a5af601b76544a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topic: EffiPortal
+  animator: {fileID: 6641314589297993768}
 --- !u!1001 &3786400164367803612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9568,15 +9568,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495756, guid: 5346baac8dbc6264180258de63c49634, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.52
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 495756, guid: 5346baac8dbc6264180258de63c49634, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.52
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 495756, guid: 5346baac8dbc6264180258de63c49634, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.52
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 495756, guid: 5346baac8dbc6264180258de63c49634, type: 3}
       propertyPath: m_LocalPosition.x
